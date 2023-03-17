@@ -52,7 +52,7 @@ rects_list = []
 output = []
 
 shot = 0
-ap_count = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0] # ap50-ap95
+ap_count = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]  # ap50-ap95
 total = 0
 
 for root, dirs, files in os.walk(example_file):
@@ -82,7 +82,6 @@ for root, dirs, files in os.walk(example_file):
 
             images = image.unsqueeze(0)
             target_boxes = boxes.unsqueeze(0)
-
 
         with torch.no_grad():
             features.append(get_features(resnet50_conv, images, target_boxes, MAPS, Scales))
@@ -163,16 +162,8 @@ if total > 0:
     for index in range(10):
         sum += ap_count[index]
     ap = float(sum / 10 / total)
-    print(" ")
-    print(" ")
-    print(" ")
-    print(" ")
-    print(" ")
     print("The Average Precision (AP) Result for Category " + args.category)
     print("AP: %.4f"%ap)
     print("AP50: %.4f"%ap50)
     print("AP75: %.4f"%ap75)
-    print(" ")
-    print(" ")
-
 

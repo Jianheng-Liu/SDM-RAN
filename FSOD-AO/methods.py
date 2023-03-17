@@ -430,23 +430,6 @@ def siamese(img, density, rects, im_id):
             cv2.putText(imgc, 'PR', (pr_x - pr_R, pr_y - pr_R + 20), cv2.FONT_HERSHEY_PLAIN, 1.5, (0, 0, 255),
                         thickness=1)
         PR_END = img_o[pr_y - pr_R:pr_y + pr_R, pr_x - pr_R:pr_x + pr_R, :]
-        '''
-        plt.rcParams['font.sans-serif'] = ['SimHei']
-        plt.rcParams['axes.unicode_minus'] = False
-        plt.subplot(1, 4, 1)
-        plt.title(str(C))
-        plt.imshow(imgc)
-        plt.subplot(1, 4, 2)
-        plt.title('Gt_img')
-        plt.imshow(Gt_img)
-        plt.subplot(1, 4, 3)
-        plt.title('Pr_img_前')
-        plt.imshow(Pr_img)
-        plt.subplot(1, 4, 4)
-        plt.title('Pr_img_后')
-        plt.imshow(PR_END, cmap="gray")
-        plt.show()
-        '''
 
     plt.title(im_id)
     plt.subplot(1, 4, 1)
@@ -562,9 +545,9 @@ def siamese_rects(img, density_list, ref_img, rects, coco, target_file, name, re
     for c in contours:
         # cv2.drawContours(img, c, -1, (0, 0, 255), 2)
         M = cv2.moments(c)
-        cx = int(M['m10'] / M['m00'])  # 求x坐标
-        cy = int(M['m01'] / M['m00'])  # 求y坐标
-        img = cv2.circle(img, (cx, cy), 2, (0, 0, 255), 4)  # 画出重心
+        cx = int(M['m10'] / M['m00'])
+        cy = int(M['m01'] / M['m00'])
+        img = cv2.circle(img, (cx, cy), 2, (0, 0, 255), 4)
 
         centers.append([cx, cy])
 
@@ -753,7 +736,7 @@ def siamese_rects(img, density_list, ref_img, rects, coco, target_file, name, re
     plt.subplot(2, 3, 1)
     plt.imshow(Gt_img_pri)
     plt.axis('off')
-    plt.title('Support Image', fontsize=7)
+    plt.title('Support Image ({:d} shot)'.format(len(density_list)), fontsize=7)
 
     plt.subplot(2, 3, 2)
     plt.imshow(img_ori)
