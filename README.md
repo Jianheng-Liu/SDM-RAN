@@ -61,7 +61,7 @@ Due to the large amount of data, we have selected a selection of images from a n
 The specific <category_id> can be found in the detect folder.
 ## Quick Demo for VCount
 ![VCount](assets/vcount.png)
-To run the quick demo for FSOD-AO task, run
+To run the quick demo for VCount task, run
 ```
 cd VCount
 ```
