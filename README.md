@@ -46,4 +46,4 @@ pip install -r requirements.txt
 │   │   │   │   ├── annotation_FSC147_384.json -> the annotations of FSC-147
 │   │   │   │   ├── split.json -> the index file for val, test, and visualization set
 ```
-SDM-RAN contains two subdirectories: FSOD-AO and VCount. The codes, models and related images (from COCO dataset) for FSOD-AO task are contained in FSOD-AO file folder. And those for visual counting task (data from FSC-147 dataset) are contained in VCount file folder. 
+SDM-RAN contains two subdirectories: **FSOD-AO** and **VCount**. The codes, models and related images (from COCO dataset) for FSOD-AO task are contained in FSOD-AO file folder. And those for visual counting task (data from FSC-147 dataset) are contained in VCount file folder. 
