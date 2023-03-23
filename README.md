@@ -18,7 +18,7 @@ pip install -r requirements.txt
     https://drive.google.com/file/d/19Ga696qZKdwLGhIBb2EdoK2FkKovtCF8/view?usp=share_link
     ```
     Move to the path: `SDM-RAN/FSOD-AO/data/models/Siamese.pt`  
-  2. RAN.pt  
+  2. RAN.pt 
     ```
     https://drive.google.com/file/d/145s_OeErMBGoQBs9NOMnwNCSn8pGp6gM/view?usp=share_link
     ```  
