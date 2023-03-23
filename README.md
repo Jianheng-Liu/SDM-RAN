@@ -49,11 +49,10 @@ pip install -r requirements.txt
 SDM-RAN contains two subdirectories: **FSOD-AO** and **VCount**. The codes, models and related images (from COCO dataset) for FSOD-AO task are contained in FSOD-AO file folder. And those for visual counting task (data from FSC-147 dataset) are contained in VCount file folder. 
 ## Quick Demo for FSOD-AO
 ![FSOD-AO](assets/fsod-ao.png)
-To run the quick demo for FSOD-AO task, move to FSOD-AO folder
+To run the quick demo for FSOD-AO task, run
 ```
 cd FSOD-AO
 ```
-Run
 ```
 python detect.py --category <category_id>
 ```
