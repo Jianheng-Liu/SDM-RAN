@@ -1,0 +1,47 @@
+brotlipy==0.7.0
+cachetools==5.3.0
+certifi @ file:///private/var/folders/nz/j6p8yfhx1mv_0grj5xl4650h0000gp/T/abs_5d968ni_yn/croot/certifi_1671487774636/work/certifi
+cffi @ file:///private/var/folders/nz/j6p8yfhx1mv_0grj5xl4650h0000gp/T/abs_ab19r4bji3/croot/cffi_1670423206034/work
+charset-normalizer @ file:///tmp/build/80754af9/charset-normalizer_1630003229654/work
+contourpy @ file:///private/var/folders/nz/j6p8yfhx1mv_0grj5xl4650h0000gp/T/abs_97c8ctlp86/croots/recipe/contourpy_1663827422071/work
+cryptography @ file:///private/var/folders/nz/j6p8yfhx1mv_0grj5xl4650h0000gp/T/abs_8c_qoky_1b/croot/cryptography_1673298759921/work
+cycler @ file:///tmp/build/80754af9/cycler_1637851556182/work
+flit_core @ file:///opt/conda/conda-bld/flit-core_1644941570762/work/source/flit_core
+fonttools==4.25.0
+google-api-core==2.11.0
+google-api-python-client==2.81.0
+google-auth==2.16.2
+google-auth-httplib2==0.1.0
+google-cloud==0.34.0
+google-cloud-vision==3.4.0
+googleapis-common-protos==1.58.0
+grpcio==1.51.3
+grpcio-status==1.51.3
+httplib2==0.21.0
+idna @ file:///private/var/folders/nz/j6p8yfhx1mv_0grj5xl4650h0000gp/T/abs_771olrhiqw/croot/idna_1666125579282/work
+kiwisolver @ file:///private/var/folders/nz/j6p8yfhx1mv_0grj5xl4650h0000gp/T/abs_93o8te804v/croot/kiwisolver_1672387163224/work
+matplotlib @ file:///private/var/folders/nz/j6p8yfhx1mv_0grj5xl4650h0000gp/T/abs_75d2nzs07i/croot/matplotlib-suite_1670466138655/work
+munkres==1.1.4
+numpy @ file:///private/var/folders/nz/j6p8yfhx1mv_0grj5xl4650h0000gp/T/abs_d18vvv3mag/croot/numpy_and_numpy_base_1672336185310/work
+packaging @ file:///private/var/folders/nz/j6p8yfhx1mv_0grj5xl4650h0000gp/T/abs_952b3b8pj8/croot/packaging_1671697425767/work
+Pillow==9.3.0
+proto-plus==1.22.2
+protobuf==4.22.1
+pyasn1==0.4.8
+pyasn1-modules==0.2.8
+pycparser @ file:///tmp/build/80754af9/pycparser_1636541352034/work
+pyOpenSSL @ file:///opt/conda/conda-bld/pyopenssl_1643788558760/work
+pyparsing @ file:///private/var/folders/nz/j6p8yfhx1mv_0grj5xl4650h0000gp/T/abs_3b_3vxnd07/croots/recipe/pyparsing_1661452540919/work
+PySocks @ file:///Users/ktietz/Code/oss/ci_pkgs/pysocks_1626781349491/work
+python-dateutil @ file:///tmp/build/80754af9/python-dateutil_1626374649649/work
+requests @ file:///private/var/folders/nz/j6p8yfhx1mv_0grj5xl4650h0000gp/T/abs_b15e28ca-768e-4951-b4c6-8a7476e43183hrjpnkg9/croots/recipe/requests_1657734638595/work
+rsa==4.9
+six @ file:///tmp/build/80754af9/six_1644875935023/work
+torch==1.13.1
+torchaudio==0.13.1
+torchvision==0.14.1
+tornado @ file:///private/var/folders/nz/j6p8yfhx1mv_0grj5xl4650h0000gp/T/abs_a61b4xoie9/croots/recipe/tornado_1662061692951/work
+tqdm @ file:///private/var/folders/nz/j6p8yfhx1mv_0grj5xl4650h0000gp/T/abs_637jfu39ar/croots/recipe/tqdm_1664392693982/work
+typing_extensions @ file:///private/var/folders/nz/j6p8yfhx1mv_0grj5xl4650h0000gp/T/abs_10a8_u2ijw/croot/typing_extensions_1669923788997/work
+uritemplate==4.1.1
+urllib3 @ file:///private/var/folders/nz/j6p8yfhx1mv_0grj5xl4650h0000gp/T/abs_8fvc4z_gis/croot/urllib3_1673575619550/work
