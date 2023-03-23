@@ -17,12 +17,12 @@ pip install -r requirements.txt
 ```
 https://drive.google.com/file/d/19Ga696qZKdwLGhIBb2EdoK2FkKovtCF8/view?usp=share_link
 ```
-&nbsp; Move to the path: `SDM-RAN/FSOD-AO/data/models/Siamese.pt`  
+Move to the path: `SDM-RAN/FSOD-AO/data/models/Siamese.pt`  
 2. RAN.pt
 ```
 https://drive.google.com/file/d/145s_OeErMBGoQBs9NOMnwNCSn8pGp6gM/view?usp=share_link
 ```
-Move to the path: `SDM-RAN/Vcount/util/RAN.pt`  
+Move to the path: `SDM-RAN/VCount/util/RAN.pt`  
 #### The code was developed and tested with Python 3.8, Pytorch 1.12.0, and opencv 4.6.0
 ## Code Directory Structure
 ```
