@@ -10,7 +10,6 @@ from PIL import Image
 from utils.ran import self_model
 import matplotlib.patches as patches
 
-
 MAPS = ['map3', 'map4']
 Scales = [0.9, 1.1]
 FEATURE_SHAPE = 24
