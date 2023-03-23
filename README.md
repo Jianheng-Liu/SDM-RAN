@@ -23,7 +23,7 @@ pip install -r requirements.txt
         https://drive.google.com/file/d/145s_OeErMBGoQBs9NOMnwNCSn8pGp6gM/view?usp=share_link
         ```  
         Move to the path: `SDM-RAN/VCount/util/RAN.pt`  
-##### The code was developed and tested with Python 3.8, Pytorch 1.12.0, and opencv 4.6.0
+#### The code was developed and tested with Python 3.8, Pytorch 1.12.0, and opencv 4.6.0
 ## Code Directory Structure
 ```
 ├── SDM-RAN
@@ -47,3 +47,15 @@ pip install -r requirements.txt
 │   │   │   │   ├── split.json -> the index file for val, test, and visualization set
 ```
 SDM-RAN contains two subdirectories: **FSOD-AO** and **VCount**. The codes, models and related images (from COCO dataset) for FSOD-AO task are contained in FSOD-AO file folder. And those for visual counting task (data from FSC-147 dataset) are contained in VCount file folder. 
+## Quick Demo for FSOD-AO
+![FSOD-AO](assets/fsod-ao.png)
+To run the quick demo for FSOD-AO task, move to FSOD-AO folder
+```
+cd FSOD-AO
+```
+Run
+```
+python detect.py --category <category_id>
+```
+where <category_id> corresponds to the category annotated in COCO dataset, for example: 13 is the object index for “stop sign”. 
+Due to the large amount of data, we have selected a selection of images from a number of categories for reference. The specific <category id> can be found in the detect folder.
