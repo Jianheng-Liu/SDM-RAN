@@ -14,3 +14,16 @@ pip install -r requirements.txt
 ```
 The code was developed and tested with Python 3.8, Pytorch 1.12.0, and opencv 4.6.0
 ## Code directory structure
+```
+├── SDM-RAN
+│   ├── FSOD-AO
+│   │   ├── [scene_id]									
+│   │   │   ├── [scene_id].aggregation.json
+│   │   │   ├── [scene_id]_vh_clean_2.0.010000.segs.json
+│   │   │   ├── [scene_id]_vh_clean_2.labels.ply
+│   │   │   ├── [scene_id]_vh_clean_2.ply
+│   ├── VCount
+│   │   ├── [scene_id]								
+│   │   │   ├── [scene_id]_vh_clean_2.ply
+│   ├── scannetv2-labels.combined.tsv
+```
