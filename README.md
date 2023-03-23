@@ -66,4 +66,4 @@ cd VCount
 ```
 python VCount.py --split <data_range> --shot <shot_number>
 ```
-where <data_range> corresponds to the dataset used in the demo: "test", "val", and "visualization" are the corresponding sets of FSC-147; <shot_number> corresponds to the number of query images.
+where <data_range> corresponds to the dataset used in the demo: "test", "val", and "visualization" are the corresponding sets of FSC-147; <shot_number> corresponds to the number of query images, for example "1" is for 1-shot.
