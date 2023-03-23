@@ -56,9 +56,7 @@ cd FSOD-AO
 ```
 python detect.py --category <category_id>
 ```
-where <category_id> corresponds to the category annotated in COCO dataset, for example: "13" is the object index for “stop sign”.  
-Due to the large amount of data, we have selected a selection of images from a number of categories for reference.  
-The specific <category_id> can be found in the detect folder.
+where <category_id> corresponds to the category annotated in COCO dataset, for example: "13" is the object index for “stop sign”. Due to the large amount of data, we have selected a selection of images from a number of categories for reference. The specific <category_id> can be found in the detect folder.
 ## Quick Demo for VCount
 ![VCount](assets/vcount.png)
 To run the quick demo for VCount task, run
