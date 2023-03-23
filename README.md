@@ -14,6 +14,7 @@ pip install -r requirements.txt
 ```
 + Download the model weights files using following URLs
   1. Siamese.pt
+  2. RAN.pt
   ```
   https://drive.google.com/file/d/19Ga696qZKdwLGhIBb2EdoK2FkKovtCF8/view?usp=share_link
   ```
