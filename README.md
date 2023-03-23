@@ -23,8 +23,8 @@ Move to the path: `SDM-RAN/FSOD-AO/data/models/Siamese.pt`
 https://drive.google.com/file/d/145s_OeErMBGoQBs9NOMnwNCSn8pGp6gM/view?usp=share_link
 ```
 Move to the path: `SDM-RAN/Vcount/util/RAN.pt`  
-###The code was developed and tested with Python 3.8, Pytorch 1.12.0, and opencv 4.6.0
-## Code directory structure
+### The code was developed and tested with Python 3.8, Pytorch 1.12.0, and opencv 4.6.0
+## Code Directory Structure
 ```
 ├── SDM-RAN
 │   ├── FSOD-AO
