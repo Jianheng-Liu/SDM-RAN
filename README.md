@@ -13,7 +13,7 @@ conda install pytorch=1.12.0 torchvision torchaudio cudatoolkit=11.7 -c pytorch
 pip install -r requirements.txt
 ```
 + Download the model weights files using following URLs
-  1. Siamese.pt
+1. Siamese.pt
 ```
 https://drive.google.com/file/d/19Ga696qZKdwLGhIBb2EdoK2FkKovtCF8/view?usp=share_link
 ```
