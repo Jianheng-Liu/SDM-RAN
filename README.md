@@ -17,13 +17,21 @@ The code was developed and tested with Python 3.8, Pytorch 1.12.0, and opencv 4.
 ```
 ├── SDM-RAN
 │   ├── FSOD-AO
-│   │   ├── [scene_id]									
-│   │   │   ├── [scene_id].aggregation.json
-│   │   │   ├── [scene_id]_vh_clean_2.0.010000.segs.json
-│   │   │   ├── [scene_id]_vh_clean_2.labels.ply
-│   │   │   ├── [scene_id]_vh_clean_2.ply
+│   │   ├── detect.py -> python file for detection									
+│   │   │   ├── utils -> the definition files of SDM and RAN
+│   │   │   ├── data -> the auxiliary models and labels file folder
+│   │   │   │   ├── models -> the weight files for SDM and RAN
+│   │   │   │   ├── annotations -> the annotations of coco_train and coco_val
+│   │   │   ├── detect
+│   │   │   │   ├── [category_id]
+│   │   │   │   │   ├── support -> the k-shot support images
+│   │   │   │   │   ├── query -> the query images
+│   │   │   │   │   ├── result -> the visualization results of detection
 │   ├── VCount
-│   │   ├── [scene_id]								
-│   │   │   ├── [scene_id]_vh_clean_2.ply
-│   ├── scannetv2-labels.combined.tsv
+│   │   ├── VCount.py -> python file for visual counting
+│   │   │   ├── utils -> the definition files of SDM and RAN
+│   │   │   ├── data -> the dataset
+│   │   │   │   ├── images_384_VarV2 -> FSC-147 images
+│   │   │   │   ├── annotation_FSC147_384.json -> the annotations of FSC-147
+│   │   │   │   ├── split.json -> the index file for val, test, and visualization set
 ```
