@@ -57,7 +57,7 @@ total = 0
 
 for root, dirs, files in os.walk(example_file):
     for f in files:
-        if f != '.DS_Store':
+        if f.split('.')[-1] == 'jpg':
 
             shot += 1
             img = cv2.imread(root + f)
@@ -83,12 +83,12 @@ for root, dirs, files in os.walk(example_file):
             images = image.unsqueeze(0)
             target_boxes = boxes.unsqueeze(0)
 
-        with torch.no_grad():
-            features.append(get_features(resnet50_conv, images, target_boxes, MAPS, Scales))
+            with torch.no_grad():
+                features.append(get_features(resnet50_conv, images, target_boxes, MAPS, Scales))
 
 for root, dirs, files in os.walk(target_file):
     for f in files:
-        if f != '.DS_Store':
+        if f.split('.')[-1] == 'jpg':
 
             total += 1
 
