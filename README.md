@@ -5,3 +5,4 @@ This repository contains the demos for paper "Identify an Object Unseen Before A
 ```
 conda install pytorch=1.13.0 torchvision torchaudio cudatoolkit=11.7 -c pytorch
 ```
++ Install necessary packages using >requirements.txt
