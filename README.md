@@ -13,3 +13,4 @@ conda install pytorch=1.12.0 torchvision torchaudio cudatoolkit=11.7 -c pytorch
 pip install -r requirements.txt
 ```
 The code was developed and tested with Python 3.8, Pytorch 1.12.0, and opencv 4.6.0
+## Code directory structure
