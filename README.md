@@ -13,16 +13,12 @@ conda install pytorch=1.12.0 torchvision torchaudio cudatoolkit=11.7 -c pytorch
 pip install -r requirements.txt
 ```
 + Download the model weights files using following URLs
-    1. Siamese.pt
-        ```
-        https://drive.google.com/file/d/19Ga696qZKdwLGhIBb2EdoK2FkKovtCF8/view?usp=share_link
-        ```
-        Move to the path: `SDM-RAN/FSOD-AO/data/models/Siamese.pt`  
-    2. RAN.pt
-        ```
-        https://drive.google.com/file/d/145s_OeErMBGoQBs9NOMnwNCSn8pGp6gM/view?usp=share_link
-        ```  
-        Move to the path: `SDM-RAN/VCount/util/RAN.pt`  
+    1. Siamese.pt  
+    - Download at [Siamese.pt](https://drive.google.com/file/d/19Ga696qZKdwLGhIBb2EdoK2FkKovtCF8/view?usp=share_link)  
+    - Move to the path: `SDM-RAN/FSOD-AO/data/models/Siamese.pt`  
+    2. RAN.pt  
+    - Download at [RAN.pt](https://drive.google.com/file/d/145s_OeErMBGoQBs9NOMnwNCSn8pGp6gM/view?usp=share_link)  
+    - Move to the path: `SDM-RAN/VCount/util/RAN.pt`  
 #### The code was developed and tested with Python 3.8, Pytorch 1.12.0, and opencv 4.6.0
 ## Code Directory Structure
 ```
@@ -66,4 +62,4 @@ cd VCount
 ```
 python VCount.py --split <data_range> --shot <shot_number>
 ```
-where <data_range> corresponds to the dataset used in the demo: "test", "val", and "visualization" are the corresponding sets of FSC-147; <shot_number> corresponds to the number of query images.
+where <data_range> corresponds to the dataset used in the demo: "test", "val", and "visualization" are the corresponding sets of FSC-147; <shot_number> corresponds to the number of query images, for example "1" is for 1-shot.
