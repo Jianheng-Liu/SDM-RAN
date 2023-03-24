@@ -22,7 +22,7 @@ MIN_DENSITY_THRESHOLD = 0.35
 QUERY_PADDING_RATIO = 0.15
 CONFIDENCE_THRESHOLD = 0.9
 IGNORE_RATIO = 0.50
-PRINT = True
+PRINT = False
 MIN_HW = 384
 MAX_HW = 1584
 IM_NORM_MEAN = [0.485, 0.456, 0.406]
@@ -772,7 +772,7 @@ def siamese_rects(img, density_list, ref_img, rects, coco, target_file, name, re
     if PRINT:
         plt.show()
 
-    elif PRINT == False and max_iou > 0.5:
+    elif PRINT == False and max_iou > 0.35:
         temp = cv2.imread(target_file + name)
         cv2.imwrite('./choosen/' + name, temp)
 
