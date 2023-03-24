@@ -8,7 +8,7 @@ Detailed introduction on the demos can be found [here](https://github.com/Brronn
 ## Installation
 + Install PyTorch:
 ```
-conda install pytorch=1.12.0 torchvision torchaudio cudatoolkit=11.7 -c pytorch
+conda install pytorch=1.13.1 torchvision torchaudio cudatoolkit=11.8 -c pytorch
 ```
 + Install necessary packages with `requirements.txt`
 ```
@@ -21,7 +21,7 @@ pip install -r requirements.txt
     2. RAN.pt  
     - Download at [RAN.pt](https://drive.google.com/file/d/145s_OeErMBGoQBs9NOMnwNCSn8pGp6gM/view?usp=share_link)  
     - Move to the path: `SDM-RAN/VCount/util/RAN.pt`  
-#### The code was developed and tested with Python 3.8, Pytorch 1.12.0, and opencv 4.6.0
+#### The code was developed and tested with Python 3.8, Pytorch 1.13.1, and opencv 4.6.0
 ## Code Directory Structure
 ```
 ├── SDM-RAN
