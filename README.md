@@ -4,11 +4,11 @@ This repository contains the demos for paper **Identify an Object Unseen Before 
 ## Abstract
 Given one or a couple of photos of an object unseen before, humans can find it immediately in different scenes. Though the human brain mechanism behind this phenomenon is still not fully discovered, this work introduces a novel engineering realization of this task. It consists of two steps: (1) Generating a **Similarity Density Map (SDM)** by convoluting the scene image using the given object image patch(es) so that the highlight areas in SDM indicate the possible locations of the object; (2) Obtaining the object occupied areas in the scene through a **Region Align Network (RAN)**. RAN is constructed on a backbone of Deep Siamese Network (DSN) and different from the traditional DSNs, RAN aims to obtain the objects region according to the location and box differences between the ground truth and the predicted one around the highlight areas in SDM. With the pre-learning on the annotated labels given by traditional datasets of RAN, the proposed SDM-RAN can identify an object unseen before at once without fine-tuning or re-training. Experiments are carried out on COCO dataset for object detection, and FSC-147 dataset for object counting. The results indicate the proposed method outperforms the state-of-the-art methods on related tasks.
 ## Deatiled Introduction
-Detailed introduction on the demos can be found [here](https://github.com/Brronnie/SDM-RAN/blob/main/assets/readme_detailed.pdf).
+Detailed introduction on the demos can be found [here](https://github.com/Brronnie/SDM-RAN/blob/main/readme_detailed.pdf).
 ## Installation
 + Install PyTorch:
 ```
-conda install pytorch=1.12.0 torchvision torchaudio cudatoolkit=11.7 -c pytorch
+conda install pytorch=1.13.1 torchvision torchaudio cudatoolkit=11.8 -c pytorch
 ```
 + Install necessary packages with `requirements.txt`
 ```
@@ -21,7 +21,7 @@ pip install -r requirements.txt
     2. RAN.pt  
     - Download at [RAN.pt](https://drive.google.com/file/d/145s_OeErMBGoQBs9NOMnwNCSn8pGp6gM/view?usp=share_link)  
     - Move to the path: `SDM-RAN/VCount/util/RAN.pt`  
-#### The code was developed and tested with Python 3.8, Pytorch 1.12.0, and opencv 4.6.0
+#### The code was developed and tested with Python 3.8, Pytorch 1.13.1, and opencv 4.6.0
 ## Code Directory Structure
 ```
 ├── SDM-RAN
