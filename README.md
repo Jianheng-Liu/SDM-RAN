@@ -59,7 +59,7 @@ where <category_id> corresponds to the category annotated in COCO dataset, for e
 ![VCount](assets/vcount.png)
 To run the quick demo for VCount task, run
 ```
-<font color="#0000dd">cd</font><br /> VCount
+$\color{blue}{cd}$ VCount
 ```
 ```
 python VCount.py --split <data_range> --shot <shot_number>
