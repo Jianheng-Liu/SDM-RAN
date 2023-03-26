@@ -48,10 +48,10 @@ SDM-RAN contains two subdirectories: **FSOD-AO** and **VCount**. The codes, mode
 ## Quick Demo for FSOD-AO
 ![FSOD-AO](assets/fsod-ao.png)
 To run the quick demo for FSOD-AO task, run
-```
+```python
 cd FSOD-AO
 ```
-```
+```python
 python detect.py --category <category_id>
 ```
 where <category_id> corresponds to the category annotated in COCO dataset, for example: "13" is the object index for “stop sign”. Due to the large amount of data, we have selected a selection of images from a number of categories for reference. The specific <category_id> can be found in the detect folder.
