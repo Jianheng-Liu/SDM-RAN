@@ -7,11 +7,11 @@ Given one or a couple of photos of an object unseen before, humans can find it i
 Detailed introduction on the demos can be found [here](https://github.com/Brronnie/SDM-RAN/blob/main/readme_detailed.pdf).
 ## Installation
 + Install PyTorch:
-```
+```python
 conda install pytorch=1.13.1 torchvision torchaudio cudatoolkit=11.8 -c pytorch
 ```
 + Install necessary packages with `requirements.txt`
-```
+```python
 pip install -r requirements.txt
 ```
 + Download the model weights files using following URLs
@@ -48,20 +48,20 @@ SDM-RAN contains two subdirectories: **FSOD-AO** and **VCount**. The codes, mode
 ## Quick Demo for FSOD-AO
 ![FSOD-AO](assets/fsod-ao.png)
 To run the quick demo for FSOD-AO task, run
-```c++
+```python
 cd FSOD-AO
 ```
-```c++
+```python
 python detect.py --category <category_id>
 ```
 where <category_id> corresponds to the category annotated in COCO dataset, for example: "13" is the object index for “stop sign”. Due to the large amount of data, we have selected a selection of images from a number of categories for reference. The specific <category_id> can be found in the detect folder.
 ## Quick Demo for VCount
 ![VCount](assets/vcount.png)
 To run the quick demo for VCount task, run
-```c
+```python
 cd VCount
 ```
-```c
+```python
 python VCount.py --split <data_range> --shot <shot_number>
 ```
 where <data_range> corresponds to the dataset used in the demo: "test", "val", and "visualization" are the corresponding sets of FSC-147; <shot_number> corresponds to the number of query images, for example "1" is for 1-shot.
