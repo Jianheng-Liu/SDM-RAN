@@ -1,4 +1,4 @@
-# Identify an Object Unseen Before At Once without Fine-tuning<br>ICONIP 2024
+# Identify an Object Unseen Before At Once without Fine-tuning
 
 ![Examples](assets/examples.png)
 This repository contains the demos for paper [**Identify an Object Unseen Before At Once without Fine-tuning**](http://arxiv.org/pdf/2411.02181).
