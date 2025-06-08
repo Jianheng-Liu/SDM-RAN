@@ -1,4 +1,4 @@
-# Identify an Object Unseen Before At Once without Fine-tuning
+# Detect an Object At Once without Fine-tuning
 
 ![Examples](assets/examples.png)
 This repository contains the codes for paper [**Detect an Object At Once without Fine-tuning**](http://arxiv.org/pdf/2411.02181), which is accepted at ICONIP 2024.
